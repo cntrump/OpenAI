@@ -439,6 +439,7 @@ class OpenAITests: XCTestCase {
             token: "foo",
             organizationIdentifier: "bar",
             host: "bizbaz.com",
+            basePath: "",
             timeoutInterval: 14
         )
         let openAI = OpenAI(configuration: configuration, session: URLSessionMock())
